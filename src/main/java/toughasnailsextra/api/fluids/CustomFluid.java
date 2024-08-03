@@ -127,7 +127,7 @@ public class CustomFluid {
             this.bucket = this.bucketItemRegisterer.register(name + "_bucket", () -> new BucketItem(this.source, itemProperties));
             this.properties.bucket(this.bucket);
         }
-
+        
         return this;
     }
 
